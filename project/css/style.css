@@ -1,0 +1,387 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Kanit:wght@500&family=Open+Sans:wght@300&family=Tilt+Neon&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Kanit:wght@500&family=Open+Sans:wght@300&family=Playpen+Sans&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Kanit:wght@500&family=Lobster&family=Open+Sans:wght@300&family=Playpen+Sans&family=Tilt+Neon&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+html{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 65px;
+    margin-top: 0px;
+    border: 1px solid rgb(184, 184, 184);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 0px 50px;
+}
+ a img{
+    width: 150px;
+    position: relative;
+    top: -42px;
+}
+
+.search input{
+    background-color: #f7f7f7;
+    width: 750px;
+    height: 50px;
+    margin: 50px;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: -45px;
+    left: -100px;
+}
+.city{
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    top: -42px;
+    left: -215px;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+.city a{
+    text-decoration: none;
+}
+
+.city i{
+    margin: 10px;
+}
+
+.sign{
+    border: 0px solid black;
+    margin: 50px;
+    padding: 8px 25px;
+    position: absolute;
+    left: 1150px;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    border-radius: 5px;
+    background-color: #42c8b7e6;
+    
+}
+.sign:hover{
+    box-shadow: 0px 0px 30px #42c8b7e6;
+}
+.sign a{
+    color: white;
+    text-decoration: none;
+}
+
+/* dropdown section */
+.dropdown{
+    border-bottom: 1px solid rgb(184, 184, 184);;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dropdown ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    top: 10px;
+    z-index: 5;
+
+}
+.dropdown ul li{
+    padding: 10px 60px;
+    position: relative;
+    z-index: 5;
+}
+.dropdown ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.3s;
+    z-index: 5;
+}
+
+.dropdown ul li a:hover {
+    text-shadow: 0px 0px 20px RED;
+    z-index: 5;
+}
+
+.drop-menu{
+    display: none;
+    z-index: 5;
+    border-radius: 10px;
+}
+.dropdown ul li:hover .drop-menu{
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 100%;
+    background-color: #EAE2AB;
+    z-index: 5;
+}
+.drop-menu ul{
+    display: block;
+    margin: 10px;
+    z-index: 5;
+}
+.drop-menu ul li{
+    font-size: 15px;
+    width: 200px;
+    padding: 10px;
+    z-index: 5;
+}
+
+.slide{
+    margin: 20px;
+}
+.slide img{
+    border-radius: 10px;
+}
+
+.carousel slide{
+    border-radius: 15%;
+
+}
+
+.service{
+    position: relative;
+    top: 3px;
+    left: 20px;
+    height: 200px;
+    width: 1273px;
+    background-color: #E2FAFC;
+    border-radius: 20px;
+}
+.service h2{
+    position: absolute;
+    top: 10px;
+    left: 23px;
+}
+.service h2:hover{
+    text-shadow: 0px 0px 30px rgb(255, 0, 0);
+    
+}
+
+.service img{
+    position: relative;
+    top: 50px;
+    height: 125px;
+    width: 125px;
+    margin-left: 110px;
+}
+.service img:hover{
+    box-shadow: 0px 0px 20px skyblue;
+    
+}
+.span{
+    position: relative;
+    top: 50px;
+    margin-left: 155px;
+    font-size: 15px;
+}
+.span:hover{
+    text-shadow: 0px 0px 10px grey;
+}
+.line{
+    width: 1352px;
+    position: relative;
+    top: 35px;
+    right: 22px;
+    height: 5px;
+    background-color: black;
+}
+.store{
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.store h2{
+    position: relative;
+    color: black;
+    top: 40px;
+}
+.store h2:hover{
+    text-shadow: 0px 0px 10px white;
+}
+.store i{
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+.store a{
+    color: greenyellow;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+    top: 40px;
+    left: 50px;
+    
+}
+
+.pincode{
+    background-color: darkcyan;
+    height: 400px;
+    border-radius: 15px;
+    /* margin-top: -56px; */
+}
+.pincode input{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 97px;
+    left: 97px;
+    padding: 12px;
+    width: 313px;
+}
+.pincode input:hover{
+    box-shadow: 0px 0px 20px black;
+}
+.pincode i{
+    position: relative;
+    top: 97px;
+    left: 70px;
+}
+.location{
+    background-color: white;
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+    position: relative;
+    bottom: 234px;
+    left: 98px;
+
+}
+.location:hover{
+    box-shadow: 0px 0px 20px lightblue;
+}
+.location button{
+    background-color: aquamarine;
+    border-radius: 5px;
+    position: relative;
+    top: 18px;
+    left: 33px;
+    padding: 5px 15px 5px 15px;
+    border: none;
+}
+.location button:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.location h5{
+    position: absolute;
+    top: 62px;
+    font-size: 18px;
+    left: 37px;
+    font-family: 'Kanit', sans-serif;
+}
+.location p{
+    position: absolute;
+    top: 90px;
+    left: 36px;
+    font-size: 13px;
+    
+}
+.location a{
+    position: absolute;
+    top: 148px;
+    left: 35px;
+}
+
+
+.footer{
+    background-color: #e2e2e2;
+    width: 100%;
+    height: 400px;
+    margin-top: -197px;
+    
+}
+.footer img{
+    height: 202px;
+    width: 265px;
+    position: relative;
+    left: 30px;
+}
+
+.table{
+    position: relative;
+    bottom: 40px;
+}
+
+#ser{
+    position: relative;
+    bottom: 140px;
+    left: 300px;
+}
+#comp{
+    position: relative;
+    bottom: 140px;
+    left: 370px;
+}
+#sell{
+    position: relative;
+    bottom: 140px;
+    left: 505px;
+}
+#help{
+    position: relative;
+    bottom: 140px;
+    left: 633px;
+}
+
+#com{
+    position: relative;
+    left: 510px;
+    bottom: 406px;
+}
+#sel{
+    position: relative;
+    left: 713px;
+    bottom: 478px;
+}
+#hel{
+    position: relative;
+    left: 922px;
+    bottom: 572px;
+}
+
+.follow span{
+     position: relative;
+     bottom: 570px;
+     left: 60px;
+    font-family: 'Kanit', sans-serif;
+
+}
+.follow i{
+    position: relative;
+    bottom: 538px;
+    right: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
